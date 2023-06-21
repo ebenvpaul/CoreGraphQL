@@ -6,8 +6,6 @@ This project is an example implementation of a GraphQL API using .NET Core. It d
 ## Features
 - Create a new product
 - Retrieve product information
-- Update product details
-- Delete a product
 
 ## Installation
 1. Clone the repository: `git clone https://github.com/ebenvpaul/CoreGraphQL.git`
@@ -22,8 +20,9 @@ This project is an example implementation of a GraphQL API using .NET Core. It d
 The GraphQL API is accessible at the endpoint: [https://localhost:7287/graphql](https://localhost:7287/graphql)
 
 ## Examples
-1.Query Products
-```query
+1. Query Products
+```graphql
+query
 {
   products {
     id
